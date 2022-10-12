@@ -1,6 +1,5 @@
 import './App.scss';
 
-import { useState, useEffect } from 'react';
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import { CodeBracketIcon } from "@heroicons/react/20/solid";
 import ThemeToggle from './components/ThemeToggle/ThemeToggle';
