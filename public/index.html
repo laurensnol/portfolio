@@ -25,6 +25,20 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Laurens Nolting</title>
+
+    <script>
+      var root = document.getElementsByTagName('html')[0];
+      var storedTheme = localStorage.getItem('theme');
+
+      if (storedTheme === null && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        console.log("dark");
+        root.setAttribute('class', 'dark');
+      } else if (storedTheme === "light") {
+        root.removeAttribute('class');
+      } else {
+        root.setAttribute('class', 'dark');
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

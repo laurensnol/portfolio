@@ -1,14 +1,12 @@
 @import 'colors';
 
 html {
-  transition: 0.25s;
   --background: #{$background-light};
   --primary: #{$primary-light};
   --secondary: #{$secondary-light};
 }
 
 html.dark {
-  transition: 0.25s;
   --background: #{$background-dark};
   --primary: #{$primary-dark};
   --secondary: #{$secondary-dark};
