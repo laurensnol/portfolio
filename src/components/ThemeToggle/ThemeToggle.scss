@@ -2,8 +2,8 @@
 
 .toggle-btn {
   color: var(--secondary);
+  background: transparent;
   transition: 0.2s;
-  background-color: transparent;
   border: none;
   cursor: pointer;
   display: flex;
@@ -12,7 +12,6 @@
   align-items: center;
 }
 
-.toggle-btn:hover {
+.toggle-btn:active {
   color: var(--primary);
 }
-

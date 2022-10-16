@@ -20,6 +20,17 @@ html.dark {
   -moz-osx-font-smoothing: grayscale;
 }
 
+// To avoid the hover color to stay after pressing the button on mobile
+@media(hover: hover) {
+  button:hover {
+    color: var(--primary);
+  }
+
+  a:hover {
+    color: var(--primary);
+  }
+}
+
 body {
   margin: 0;
   width: 100vw;
@@ -42,13 +53,13 @@ h6 {
 
 a {
   color: var(--secondary);
-  transition: 0.2s;
+  transition: color 0.2s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-a:hover {
-  color: var(--primary);
+a:active {
+  color: var(--secondary);
 }
