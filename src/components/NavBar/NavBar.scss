@@ -1,0 +1,21 @@
+nav {
+  margin: 25px 20px 25px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.nav-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
