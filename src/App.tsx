@@ -1,21 +1,12 @@
 import './App.scss';
 
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
-import { CodeBracketIcon } from "@heroicons/react/20/solid";
-import ThemeToggle from './components/ThemeToggle/ThemeToggle';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
     <div>
-      <nav>
-        <h6>Laurens Nolting</h6>
-        <span className='nav-actions'>
-          <a href="https://github.com/laurensnol/portfolio" target={"_blank"} rel={"noopener noreferrer"}>
-            <CodeBracketIcon width={18} />
-          </a>
-          <ThemeToggle />
-        </span>
-      </nav>
+      <NavBar />
 
       <main>
         <h1>Coming Soon</h1>
