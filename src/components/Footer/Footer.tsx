@@ -1,17 +1,19 @@
 import './Footer.scss';
 
+import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
     <footer>
       <p className='footer-copyright'>© Laurens Nolting 2022</p>
       <div className='footer-links'>
-        <a href=".">
+        <Link to={'legal'}>
           Legal Notice
-        </a>
-        <p>&nbsp;/&nbsp;</p>
-        <a href=".">
+        </Link>
+        <p>&nbsp;•&nbsp;</p>
+        <Link to={'impressum'}>
           Impressum
-        </a>
+        </Link>
       </div>
     </footer>
   );
