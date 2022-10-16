@@ -18,7 +18,6 @@
       var storedTheme = localStorage.getItem('theme');
 
       if (storedTheme === null && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        console.log("dark");
         root.setAttribute('class', 'dark');
       } else if (storedTheme === "light") {
         root.removeAttribute('class');
