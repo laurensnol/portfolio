@@ -10,13 +10,11 @@ function ThemeToggle() {
   useEffect(() => {
     // Add some CSS to make later transitions between dark and light mode more smooth
     var sheet = document.createElement('style');
-    sheet.innerText = "html { transition: 0.2s; }";
+    sheet.innerText = "html { transition: background-color 0.2s; }";
     document.head.appendChild(sheet);
   }, []);
 
   useEffect(() => {
-    console.log("Ran isDarkMode");
-
     if (isDarkMode) {
       root.setAttribute('class', 'dark');
       localStorage.setItem('theme', 'dark');
