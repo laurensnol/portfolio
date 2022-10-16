@@ -10,7 +10,7 @@ function App() {
       <nav>
         <h6>Laurens Nolting</h6>
         <span className='nav-actions'>
-          <a href="https://github.com/laurensnol/portfolio">
+          <a href="https://github.com/laurensnol/portfolio" target={"_blank"} rel={"noopener noreferrer"}>
             <CodeBracketIcon width={18} />
           </a>
           <ThemeToggle />
