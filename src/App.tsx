@@ -2,6 +2,7 @@ import './App.scss';
 
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           </a>
         </span>
       </main>
+
+      <Footer />
     </div>
   );
 }

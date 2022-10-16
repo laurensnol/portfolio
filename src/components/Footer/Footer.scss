@@ -1,0 +1,25 @@
+footer {
+  position: absolute;
+  padding-top: 50px;
+  bottom: 30px;
+  left: 60px;
+  right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  color: var(--secondary);
+  font-size: 10px;
+}
+
+.footer-copyright {
+  display: inline;
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

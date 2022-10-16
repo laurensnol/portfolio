@@ -46,6 +46,10 @@ h1 {
   font-weight: bold;
 }
 
+p {
+  margin: 0;
+}
+
 a {
   color: var(--secondary);
   transition: color 0.2s;
