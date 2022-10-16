@@ -22,7 +22,7 @@ function ThemeToggle() {
       root.removeAttribute('class');
       localStorage.setItem('theme', 'light');
     }
-  }, [isDarkMode])
+  }, [isDarkMode, root])
 
   return (
     <button className="toggle-btn" onClick={() => { setDarkMode(!isDarkMode) }}>
