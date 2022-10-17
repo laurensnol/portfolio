@@ -4,7 +4,7 @@ import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
 function Index() {
   return (
-    <main>
+    <div className='wrapper'>
       <div className="hero">
         <h1>Coming Soon</h1>
         <span className='hero-actions'>
@@ -23,7 +23,7 @@ function Index() {
           </a>
         </span>
       </div>
-    </main>
+    </div>
   );
 }
 
