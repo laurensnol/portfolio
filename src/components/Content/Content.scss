@@ -1,0 +1,27 @@
+main {
+  flex-grow: 2;
+  margin-top: 35px;
+  margin-left: 120px;
+  margin-right: 195px;
+}
+
+article {
+  text-align: justify;
+
+  h2, h3, h4, p, ul {
+    line-height: 1.6;
+  }
+
+  h2, h3 {
+    padding-top: 1rem;
+  }
+
+  a {
+    color: var(--primary);
+    display: inline;
+  }
+
+  ul {
+    margin: 0;
+  }
+}

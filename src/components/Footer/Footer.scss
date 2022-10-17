@@ -1,21 +1,21 @@
-nav {
+footer {
+  padding: 50px 60px 50px 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 20px 50px 30px;
+
+  color: var(--secondary);
+  font-size: 10px;
 }
 
-.nav-title {
-  color: var(--primary);
-  font-size: 16px;
-  font-weight: 900;
+.footer-copyright {
+  display: inline;
+  font-weight: bold;
 }
 
-.nav-actions {
+.footer-links {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 }

@@ -1,14 +1,11 @@
-import './App.scss';
+import './Index.scss';
 
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
-import NavBar from './components/NavBar/NavBar';
 
-function App() {
+function Index() {
   return (
-    <div>
-      <NavBar />
-
-      <main>
+    <div className='wrapper'>
+      <div className="hero">
         <h1>Coming Soon</h1>
         <span className='hero-actions'>
           <a href="https://linkedin.com/in/laurensnolting/" target={"_blank"} rel={"noopener noreferrer"}>
@@ -25,9 +22,9 @@ function App() {
             <EnvelopeIcon width={24} height={24} />
           </a>
         </span>
-      </main>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default Index;
